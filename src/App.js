@@ -9,18 +9,18 @@ import Pricing from './components/Pricing';
 
 function App() {
   return (
-      <Router basename={process.env.PUBLIC_URL}>
-          <div className="App">
-            <Switch>
+      <Router>
+        <div className="App">
+          <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/home" component={HomePage} />
             <Route exact path="/services" component={Services} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/aboutMe" component={AboutMe} />
             <Route exact path="/pricing" component={Pricing} />
-            </Switch>
-          </div>
-        </Router>
+          </Switch>
+        </div>
+      </Router>
   );
 }
 

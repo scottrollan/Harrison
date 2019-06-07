@@ -8,6 +8,8 @@ const imageStyles = {
     maxHeight: "30vh",
     maxWidth: "90vw",
     marginBottom: "2vh",
+    borderRadius: "0.7vw",
+    border: "solid 0.2vw #ffc107"
 }
 
 class Services extends Component{
