@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/harrison/public/static/css/main.4ebb760b.chunk.css",
+    "main.js": "/harrison/public/static/js/main.976dc6f9.chunk.js",
+    "main.js.map": "/harrison/public/static/js/main.976dc6f9.chunk.js.map",
+    "runtime~main.js": "/harrison/public/static/js/runtime~main.6e760434.js",
+    "runtime~main.js.map": "/harrison/public/static/js/runtime~main.6e760434.js.map",
+    "static/js/2.37274169.chunk.js": "/harrison/public/static/js/2.37274169.chunk.js",
+    "static/js/2.37274169.chunk.js.map": "/harrison/public/static/js/2.37274169.chunk.js.map",
+    "index.html": "/harrison/public/index.html",
+    "precache-manifest.fb6f5111d7ed13464a64b392e75f3714.js": "/harrison/public/precache-manifest.fb6f5111d7ed13464a64b392e75f3714.js",
+    "service-worker.js": "/harrison/public/service-worker.js",
+    "static/css/main.4ebb760b.chunk.css.map": "/harrison/public/static/css/main.4ebb760b.chunk.css.map",
+    "static/media/fakeBRWoodedArea.png": "/harrison/public/static/media/fakeBRWoodedArea.77242a6c.png",
+    "static/media/fakeMulching1.jpg": "/harrison/public/static/media/fakeMulching1.a1300ada.jpg",
+    "static/media/fakePWDriveway.jpg": "/harrison/public/static/media/fakePWDriveway.2a777543.jpg",
+    "static/media/logo.png": "/harrison/public/static/media/logo.20686f58.png",
+    "static/media/working.jpg": "/harrison/public/static/media/working.9b0f3424.jpg"
+  }
+}
