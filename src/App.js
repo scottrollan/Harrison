@@ -9,7 +9,7 @@ import Pricing from './components/Pricing';
 
 function App() {
   return (
-      <Router>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div className="App">
             <Route exact path="/" component={HomePage} />
             <Route exact path="/home" component={HomePage} />
@@ -18,7 +18,7 @@ function App() {
             <Route exact path="/aboutMe" component={AboutMe} />
             <Route exact path="/pricing" component={Pricing} />
           </div>
-        </Router>
+        </BrowserRouter>
   );
 }
 
