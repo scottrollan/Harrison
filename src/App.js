@@ -11,7 +11,6 @@ function App() {
   return (
       <Router basename={process.env.PUBLIC_URL}>
           <div className="App">
-        <h2>THIS IS A TEXT</h2>
             <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/home" component={HomePage} />
