@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  color: whitesmoke;
+  font-family: 'Cabin','Libre Franklin', sans-serif;
+  padding-bottom: 5vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#homePageBtn {
+  margin: 3vh;
+}
+#homePageBtn:hover .initial{
+  display: none; 
+}
+  #homePageBtn:hover .onHover:before{
+  content:"I don't do anything"; 
+}
+
