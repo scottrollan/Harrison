@@ -9,7 +9,7 @@ import Pricing from './components/Pricing';
 
 function App() {
   return (
-      <HashRouter>
+      <HashRouter basename="/public/">
         <div className="App">
           <Switch>
             <Route exact path="/" component={HomePage} />
