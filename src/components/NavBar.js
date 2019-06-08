@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 const logoStyles = {
@@ -18,19 +19,13 @@ class NavBar extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="About Harrison" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/aboutMe">About</NavDropdown.Item>
-                <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
-                {/* <NavDropdown.Item href="/hours">Hours</NavDropdown.Item> */}
+                <NavDropdown.Item><Link to="/AboutMe">About</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/contact">Contact</Link></NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/Services">Services</NavDropdown.Item>
-                <NavDropdown.Item href="/Pricing">Pricing</NavDropdown.Item>
-                {/* <NavDropdown.Item href="/botanicalName">
-                  by Botanical Name
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/growingConditions">
-                  by Growing Conditions
-                </NavDropdown.Item> */}
+                <NavDropdown.Item ><Link to="/Services">Services</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/Pricing">Pricing</Link></NavDropdown.Item>
+
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
