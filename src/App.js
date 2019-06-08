@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import HomePage from './components/HomePage';
 import Services from './components/Services';
@@ -9,7 +9,7 @@ import Pricing from './components/Pricing';
 
 function App() {
   return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <div className="App">
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/pricing" component={Pricing} />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
   );
 }
 
