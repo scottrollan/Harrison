@@ -8,23 +8,30 @@ const logoStyles = {
   marginRight: "2vw"
 };
 
+// const linkStyles={
+//   width: "8vw",
+//   textDecoration: "none",
+//   padding: "2vh 6vw 3vh 2vw",
+// }
+
 class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
         <Navbar bg="light" expand="lg">
-          <img src={Logo} alt="" style={logoStyles} href="#home" />
+          <Link to="/home"><img src={Logo} alt="" style={logoStyles}  /></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/#/">Home</Nav.Link>
               <NavDropdown title="About Harrison" id="basic-nav-dropdown">
-                <NavDropdown.Item><Link to="/AboutMe">About</Link></NavDropdown.Item>
-                <NavDropdown.Item ><Link to="/contact">Contact</Link></NavDropdown.Item>
+                <NavDropdown.Item href="/#/AboutMe">About</NavDropdown.Item>
+                <NavDropdown.Item href="/#/contact">Contact</NavDropdown.Item>
               </NavDropdown>
+
               <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item ><Link to="/Services">Services</Link></NavDropdown.Item>
-                <NavDropdown.Item ><Link to="/Pricing">Pricing</Link></NavDropdown.Item>
+                <NavDropdown.Item href="/#/Services">Services</NavDropdown.Item>
+                <NavDropdown.Item href="/#/Pricing">Pricing</NavDropdown.Item>
 
               </NavDropdown>
             </Nav>
