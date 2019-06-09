@@ -9,7 +9,9 @@ import Pricing from './components/Pricing';
 
 function App() {
   return (
-      <HashRouter basename="/public/">
+    <div>
+      <h2>This is from App.js</h2>
+      {/* <HashRouter basename="/public/">
         <div className="App">
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -20,7 +22,8 @@ function App() {
             <Route exact path="/pricing" component={Pricing} />
           </Switch>
         </div>
-      </HashRouter>
+      </HashRouter> */}
+      </div>
   );
 }
 
