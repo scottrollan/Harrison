@@ -15,7 +15,7 @@ class Contact extends Component {
                 <a href="mailto:pkwood12@gmail.com?subject=Contact%20from%20website">
                     <button className="btn btn-warning" style={buttonStyles}>Send Me An E-mail</button>
                 </a>
-                <a href="sms:1-404-295-4588">
+                <a href="sms:1-404-277-4663">
                     <button className="btn btn-warning" style={buttonStyles}> Send Me A Text </button>
                 </a>
                 </div>
